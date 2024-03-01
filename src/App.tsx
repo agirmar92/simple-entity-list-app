@@ -30,11 +30,12 @@ const App = () => {
       </header>
       <main className="p-2 flex justify-center">
         <div className="flex flex-col items-center bg-anti-flash-white shadow-lg grow-1 w-full max-w-2xl min-h-52 rounded-lg p-4 gap-4">
-          {entities.map((entity) => {
+          {entities.map((entity, entityIndex) => {
             const initialLetter = entity.title[0]
 
             return (
-              <div className="flex flex-col gap-2 w-full">
+              /* Using iterative index as key is not best practice, but should do for now */
+              <div key={entityIndex} className="flex flex-col gap-2 w-full">
                 <section className="flex items-center gap-2">
                   <p className="flex justify-center items-center text-xl uppercase bg-polynesian-blue size-10 rounded-full text-white font-bold">
                     {initialLetter}
