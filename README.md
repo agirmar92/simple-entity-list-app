@@ -2,15 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Before running
+The application is hosted in Vercel. Click [here](https://simple-entity-list-app.vercel.app/) to visit the page.
 
-Download all dependencies by running:
+## Running locally
+
+### Download all dependencies by running:
 
 ```shell
 npm install
 ```
 
-## To run the application in dev mode
+### To run the application in dev mode
 
 In the project directory, you can run:
 
