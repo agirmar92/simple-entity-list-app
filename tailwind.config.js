@@ -6,6 +6,7 @@ module.exports = {
       backgroundColor: {
         'anti-flash-white': '#EBEBEB',
         silver: '#C0C0C0',
+        'polynesian-blue': '#004E98',
       },
     },
   },
