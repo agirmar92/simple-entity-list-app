@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Button } from './Button'
 
 const MenuDropdown = () => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <div className="relative">
