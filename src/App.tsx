@@ -17,11 +17,10 @@ const INITIAL_ENTITIES: Entity[] = [
 const App = () => {
   const [entities, setEntities] = useState<Entity[]>(INITIAL_ENTITIES)
 
-  const onAddContact = () => {
-    setEntities([
-      ...entities,
-      { title: 'New Entity', subtitle: 'Some subtitle' },
-    ])
+  const onAddContact = (newContact: Entity) => {
+    const { title, subtitle } = newContact
+
+    setEntities([...entities, { title, subtitle }])
   }
 
   return (
