@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         'anti-flash-white': '#EBEBEB',
+        silver: '#C0C0C0',
       },
     },
   },
