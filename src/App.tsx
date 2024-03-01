@@ -34,7 +34,7 @@ const App = () => {
             const initialLetter = entity.title[0]
 
             return (
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 w-full">
                 <section className="flex items-center gap-2">
                   <p className="flex justify-center items-center text-xl uppercase bg-polynesian-blue size-10 rounded-full text-white font-bold">
                     {initialLetter}
