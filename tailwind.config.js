@@ -7,6 +7,8 @@ module.exports = {
         'anti-flash-white': '#EBEBEB',
         silver: '#C0C0C0',
         'polynesian-blue': '#004E98',
+        pumpkin: '#FF6700',
+        'pumpkin-hover': '#FF8633',
       },
     },
   },
