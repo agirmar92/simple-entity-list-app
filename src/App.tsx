@@ -17,6 +17,13 @@ const INITIAL_ENTITIES: Entity[] = [
 const App = () => {
   const [entities, setEntities] = useState<Entity[]>(INITIAL_ENTITIES)
 
+  const onAddContact = () => {
+    setEntities([
+      ...entities,
+      { title: 'New Entity', subtitle: 'Some subtitle' },
+    ])
+  }
+
   return (
     <div className="flex flex-col bg-silver h-dvh">
       <header className="flex justify-between px-4">
@@ -25,7 +32,7 @@ const App = () => {
           Your contacts
         </h1>
         <section className="flex flex-1 justify-center items-center">
-          <MenuDropdown />
+          <MenuDropdown onAddContactCallback={onAddContact} />
         </section>
       </header>
       <main className="p-2 flex justify-center">
